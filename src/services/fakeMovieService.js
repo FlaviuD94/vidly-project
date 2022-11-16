@@ -74,6 +74,15 @@ const movies = [
     dailyRentalRate: 3.5,
     liked: false,
   },
+  {
+    _id: '5b21ca3eeb7f6fbccd471822',
+    title: 'The Turist',
+    genre: { _id: '5b21ca3eeb7f6fbccd471818', name: 'Action' },
+    numberInStock: 9,
+    dailyRentalRate: 3,
+    publishDate: '2012-06-03T11:02:20.809Z',
+    liked: true,
+  },
 ];
 
 export function getMovies() {
